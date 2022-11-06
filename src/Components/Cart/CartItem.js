@@ -14,19 +14,16 @@ function CartItem({cartItem}) {
     return(
         <div className="cart-item-div">
             <div className="order-div-column-img">
-                      <p>{cartItem.order}</p>  <img src={`./img/${products.img}.jpg`} alt="products" width="150px" height="150px"/>
+                <p>{cartItem.order}</p>  <img src={`./img/${products.img}.jpg`} alt="products" width="150px" height="150px"/>
             </div>
             <div className="order-div-column-text">
-
-          
-            <p>{products.name}</p>
-           <p>{cartItem.quantity} piece(s)</p>
-           <p>Price: ${products.price * cartItem.quantity}</p>
-           </div>
-           <span onClick={() => dispatch(removeItemFromCart({cartItemId: cartItem.id}))}>
-           <img className="icon" src="https://img.icons8.com/material-outlined/48/000000/trash--v1.png"/> 
-           </span>
-
+                <p>{products.name}</p>
+                <p>{cartItem.quantity} piece(s)</p>
+                <p>Price: ${products.price * cartItem.quantity}</p>
+        </div>
+        <span onClick={() => dispatch(removeItemFromCart({cartItemId: cartItem.id}))}>
+                <img className="icon" src="https://img.icons8.com/material-outlined/48/000000/trash--v1.png"/> 
+        </span>
         </div>
     )
 }
