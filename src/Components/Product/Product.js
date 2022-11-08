@@ -9,7 +9,7 @@ function Product({product}) {
 
     return(
         <div className="product-div">
-            <img src={`./img/${product.img}.jpg`} alt="product" width="200px" height="200px"/>
+            <img className="product-img" src={`./img/${product.img}.jpg`} alt="product" width="200px" height="200px"/>
                 <h2 className="product-name">{product.name}</h2>
             <div className="center-products">
                 <div className="p-product-div">

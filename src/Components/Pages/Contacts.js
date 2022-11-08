@@ -24,7 +24,7 @@ function Contacts() {
             </div>
 
             <div className='column-contacts-div'>
-                <img src={flowers} alt="flowers" width="500px"/>
+                <img className='contacts-flowers-img' src={flowers} alt="flowers" width="500px"/>
             </div>
         </div>
         <div className='bottom-quote-div'>

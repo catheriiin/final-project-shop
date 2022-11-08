@@ -14,22 +14,23 @@ import aboutWhiteFlowersRight from '../../../images/white-flowers-right.png';
 import bottomFlower from '../../../images/piones-one.png';
 import phoneIcon from '../../../images/phone-call.png';
 import AboutSlider from './AboutSlider';
-
+import '../../../App.css';
+import '../../../Media.css';
 
 function Aboutus() {
     return(
         <div>
             <div className="hero-div">
                 <div className='hero-left-div'>
-                    <img src={aboutCake} alt="cakes" width="450px"/>
+                    <img className='about-hero-img-cake' src={aboutCake} alt="cakes" width="450px"/>
                 </div>
                 <div className='hero-column'>
-                    <img src={aboutBaloon} alt="baloons" width="350px"/>
-                    <h1>Beautiful flowers <br></br> and decorations <br></br>for your special <br></br>occasion</h1>
-                    <button className='shop-btn'>Shop now</button>
+                    <img className='about-hero-img' src={aboutBaloon} alt="baloons" width="350px"/>
+                    <h1 className='h1-deco'>Beautiful flowers <br></br> and decorations <br></br>for your special <br></br>occasion</h1>
+                    <a href='/shop'><button className='shop-btn'>Shop now</button></a>
                 </div>
                 <div className='hero-right-div'>
-                    <img src={aboutPiones} alt="piones" width="450px" />
+                    <img className='about-hero-img' src={aboutPiones} alt="piones" width="450px" />
                 </div>
             </div>
             <div className='title-div'>
@@ -37,18 +38,20 @@ function Aboutus() {
             </div>
             <div className='about-us-div'>
                 <div className='about-disc'>
-                <p className='about-us-p'>We have been working since 2020 and have achieved great success in a short period of time. We sell bouquets, balloons and decorations for your special occasion: birthday, engagement, anniversary, wedding and other events. Our clients value us for quality and efficiency, as well as for affordable price and high aesthetics.</p>
-                <h3>Why choose us?</h3>
-                <p className='about-us-choose-p'>We have decorated over 1000 events. Our pastry chefs have baked over 500 birthday and wedding cakes. Our balloons decorated important events. Check out the photos to see our happy customers and their special events.</p>
+                    <p className='about-us-p borders'>We have been working since 2020 and have achieved great success in a short period of time. We sell bouquets, balloons and decorations for your special occasion: birthday, engagement, anniversary, wedding and other events. Our clients value us for quality and efficiency, as well as for affordable price and high aesthetics.</p>
+                    <div className='about-us-center-div'>
+                        <h3 className='choose'>Why choose us?</h3>
+                        <p className='about-us-choose-p'>We have decorated over 1000 events. Our pastry chefs have baked over 500 birthday and wedding cakes. Our balloons decorated important events. Check out the photos to see our happy customers and their special events.</p>
+                    </div>
                 </div>
                 <div className='about-img-div'>
-            <img src={aboutSideFlowers} alt="flowers" width="400px"/>
-                    </div>
+                    <img className='flowers-img' src={aboutSideFlowers} alt="flowers" width="400px"/>
+                </div>
             </div>
             <div className='img-div'>
-                <img src={aboutBride} alt="bride" width="400px"/>
-                <img src={aboutWedding} alt="wedding" width="400px"/>
-                <img src={aboutCatering} alt="catering" width="400px"/>
+                <img className='wedding-img' src={aboutBride} alt="bride" width="400px"/>
+                <img className='wedding-img' src={aboutWedding} alt="wedding" width="400px"/>
+                <img className='wedding-img' src={aboutCatering} alt="catering" width="400px"/>
             </div>
             <div className='slider-container'>
                 <img className='img-slider-side' src={aboutWhiteFlowers} alt="flowers" width="400px"/>
@@ -96,14 +99,14 @@ function Aboutus() {
                 <div className='column-div'>
                     <h2 className='h2-size'>Interested?</h2>
                     <p className='bottom-p'>Shop now or call us<br></br>for a consultation</p>
-                    <button className='shop-now-btn'>Shop now</button>
+                    <a href='/shop'><button className='shop-now-btn'>Shop now</button></a>
                     <div className='a-img-div'>
                         <img src={phoneIcon} alt="phone" width="30px"/>
                     <a className='call-us-a' href='tel:+79012342342'>Call us</a>
                     </div>
                 </div>
                 <div className='img-div'>
-                    <img src={bottomFlower} alt="rose" width="500px"/>
+                    <img className='bottom-img' src={bottomFlower} alt="rose" width="500px"/>
                 </div>
             </div>
     </div>

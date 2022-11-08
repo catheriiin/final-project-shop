@@ -10,7 +10,7 @@ export const slice = createSlice({
             const timeId = new Date().getTime()
             state.cartItems.push({
                 id: timeId,
-                totalItems: (action.payload.quantity + action.payload.quantity) - 1,
+                totalItems: action.payload.quantity,
                 productId: action.payload.product.id,
                 quantity: action.payload.quantity,
                 totalPrice: action.payload.quantity * action.payload.product.price
