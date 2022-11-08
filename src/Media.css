@@ -467,6 +467,9 @@
         align-items: center;
         justify-content: center;
     }
+    .contacts-flower-img {
+        width: 500px;
+    }
 }
 
 @media screen and (max-width: 350px){
@@ -588,6 +591,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .contacts-flower-img {
+        width: 300px;
     }
 }
 
