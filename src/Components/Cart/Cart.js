@@ -8,7 +8,7 @@ function Cart() {
     const cartItems = useSelector(getCartItems);
     const totalPrice = useSelector(getTotalPrice);
     const totalItems = useSelector(getTotalItems);
-    const total = "Cart total: " + "$" + totalPrice;
+    const total = 'Cart total: $' + totalPrice;
 
     return(
         <div className="cart-hero">
