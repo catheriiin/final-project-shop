@@ -440,23 +440,30 @@
     .order-div {
         width: 200px;
     }
-    .order-title-div {
-        width: 450px;
-    }
-    .cart-item-div {
-        width: 460px;
+    .order-items-div {
+        display: flex;
+        justify-content: space-around;
         margin-left: 100px;
     }
+    .order-title-div {
+        width: 360px;
+    }
+    .cart-item-div {
+        width: 360px;
+        margin-left: 100px;
+        display: flex;
+        justify-content: space-around;
+    }
     .checkout-div {
-        width: 450px;
+        width: 350px;
         margin-top: 20px;
     }
     .order-text-deco {
         font-size: 14px;
     }
     .order-product-img {
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
     }
     .delete-icon {
         margin-left: 90px;
@@ -468,7 +475,7 @@
         justify-content: center;
     }
     .contacts-flower-img {
-        width: 500px;
+        width: 250px;
     }
 }
 
@@ -566,14 +573,14 @@
         width: 200px;
     }
     .order-title-div {
-        width: 450px;
+        width: 320px;
     }
     .cart-item-div {
-        width: 460px;
+        width: 320px;
         margin-left: 100px;
     }
     .checkout-div {
-        width: 450px;
+        width: 320px;
         margin-top: 20px;
     }
     .order-text-deco {
@@ -593,7 +600,7 @@
         justify-content: center;
     }
     .contacts-flower-img {
-        width: 300px;
+        width: 250px;
     }
 }
 
