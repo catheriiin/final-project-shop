@@ -18,12 +18,7 @@
     .shop-btn {
         font-size: 18px;
     }
-    .about-us-div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+ 
     .about-us-p{
         text-align: center;
         margin-left: 5px;
@@ -34,12 +29,12 @@
     }
     .about-disc{
         justify-content: center;
+        margin-left: auto;
     }
     .about-us-choose-p {
         margin-left: 5px;
     }
     .flowers-img {
-        margin-left: 960px;
         margin-bottom: 10px;
         width: 300px;
     }
@@ -113,12 +108,7 @@
   .shop-btn {
       font-size: 18px;
   }
-  .about-us-div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-  }
+
   .about-us-p{
       text-align: center;
       margin-left: 5px;
@@ -129,12 +119,12 @@
   }
   .about-disc{
       justify-content: center;
+      margin-left: auto;
   }
   .about-us-choose-p {
       margin-left: 5px;
   }
   .flowers-img {
-      margin-left: 520px;
       margin-bottom: 10px;
       width: 300px;
   }
@@ -240,12 +230,7 @@
     .shop-btn {
         font-size: 18px;
     }
-    .about-us-div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+
     .about-us-p{
         text-align: center;
         margin-left: 5px;
@@ -256,12 +241,12 @@
     }
     .about-disc{
         justify-content: center;
+        margin-left: auto;
     }
     .about-us-choose-p {
         margin-left: 5px;
     }
     .flowers-img {
-        margin-left: 400px;
         margin-bottom: 10px;
         width: 300px;
     }
@@ -371,12 +356,7 @@
     .shop-btn {
         font-size: 18px;
     }
-    .about-us-div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
+ 
 
     .slider-img {
         width: 300px;
@@ -393,6 +373,7 @@
     }
     .about-disc{
         justify-content: center;
+        margin-left: auto;
     }
     .about-us-choose-p {
         margin-left: 5px;
@@ -539,12 +520,12 @@
     }
     .about-disc{
         justify-content: center;
+        margin-left: auto;
     }
     .about-us-choose-p {
         margin-left: 5px;
     }
     .flowers-img {
-        margin-left: 230px;
         margin-bottom: 10px;
         width: 300px;
     }
