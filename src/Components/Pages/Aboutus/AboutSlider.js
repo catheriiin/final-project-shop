@@ -30,7 +30,7 @@ function AboutSlider() {
                 <button className="slider-btn" onClick={previousService}>{"<"}</button>
             </div>
             <div className="slider-box">
-            <img src={image} alt="service" width="400px" height="550px"/>
+            <img className="slider-img" src={image} alt="service" width="400px" height="550px"/>
             <h5>{id} - {description}</h5>
             </div>
             <div  className="button-div">
