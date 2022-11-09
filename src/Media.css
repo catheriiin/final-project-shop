@@ -212,7 +212,7 @@
       margin-left: 90px;
   }
   .contacts-flowers-img {
-    width: 460px;
+    width: 400px;
   }
 
 }
@@ -465,9 +465,6 @@
         width: 50px;
         height: 50px;
     }
-    .delete-icon {
-        margin-left: 90px;
-    }
     .center {
         display: flex;
         flex-direction: column;
@@ -589,9 +586,6 @@
     .order-product-img {
         width: 100px;
         height: 100px;
-    }
-    .delete-icon {
-        margin-left: 90px;
     }
     .center {
         display: flex;
