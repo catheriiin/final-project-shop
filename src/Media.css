@@ -453,7 +453,7 @@
     .add, .reduce {
         margin-bottom: 5px;
         font-size: 12px;
-        width: 5px;
+        width: 3px;
         display: flex;
         justify-content: center;
     }
@@ -636,7 +636,7 @@
     .add, .reduce {
         margin-bottom: 5px;
         font-size: 13px;
-        width: 5px;
+        width: 3px;
         display: flex;
         justify-content: center;
     }
