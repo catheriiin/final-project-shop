@@ -215,7 +215,6 @@
   	.hero-div {
         display: flex;
         justify-content: space-around;
-        margin-bottom: 80px;
         height: 100vh;
     }
     .nav-style {
@@ -347,7 +346,6 @@
 	.hero-div {
         display: flex;
         justify-content: space-around;
-        margin-bottom: 60px;
         height: 100vh;
     }
     .hero-column {
@@ -526,7 +524,6 @@
 	.hero-div {
         display: flex;
         justify-content: space-around;
-        margin-bottom: 60px;
         height: 100vh;
     }
     .hero-column {
