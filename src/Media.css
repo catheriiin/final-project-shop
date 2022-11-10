@@ -363,9 +363,13 @@
         height: 350px;
     }
 
-    .about-us-p, .about-us-choose-p  {
-        font-size: 14px;
-        width: 300px;
+    .about-us-p {
+        font-size: 13px;
+        max-width: 190px;
+    }
+    .about-us-choose-p {
+        font-size: 13px;
+        max-width: 190px;
     }
     
     .choose {
@@ -401,7 +405,10 @@
         width: 300px;
     }
     .products-div {
-        width: 300px;
+        width: 260px;
+    }
+    .block {
+        margin-right: 5px;
     }
     .product-div {
         width: 130px;
@@ -415,8 +422,8 @@
    }
 
     .product-img {
-        width: 110px;
-        height: 110px;
+        width: 100px;
+        height: 100px;
     }
 
     .p-product, .product-name, .add-to-cart-btn, .change-quantity {
@@ -496,11 +503,15 @@
     .about-hero-img-cake {
         width: 120px;
     }
-
-    .about-us-p, .about-us-choose-p  {
-        font-size: 12px;
-        width: 350px;
+    .about-us-p {
+        font-size: 13px;
+        max-width: 190px;
     }
+    .about-us-choose-p {
+        font-size: 13px;
+        max-width: 300px;
+    }
+    
     .shop-btn {
         font-size: 18px;
     }
@@ -548,10 +559,7 @@
         width: 300px;
     }
     .products-div {
-        width: 360px;
-    }
-    .products-div {
-        width: 300px;
+        width: 260px;
     }
     .product-div {
         width: 130px;
@@ -568,8 +576,11 @@
     height: 350px;
 }
     .product-img {
-        width: 110px;
-        height: 110px;
+        width: 100px;
+        height: 100px;
+    }
+    .block {
+        margin-right: 5px;
     }
 
     .p-product, .product-name, .add-to-cart-btn, .change-quantity {
