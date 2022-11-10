@@ -342,7 +342,7 @@
 	.hero-div {
         display: flex;
         justify-content: space-around;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
     .hero-column {
         justify-content: center;
@@ -516,7 +516,7 @@
 	.hero-div {
         display: flex;
         justify-content: space-around;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
     .hero-column {
         justify-content: center;
