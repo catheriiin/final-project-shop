@@ -447,12 +447,13 @@
     }
 
     .p-product, .product-name, .add-to-cart-btn, .change-quantity {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .add, .reduce {
         margin-bottom: 5px;
-        font-size: 13px;
+        font-size: 12px;
+        width: 5px;
         display: flex;
         justify-content: center;
     }
@@ -546,7 +547,7 @@
     }
     
     .shop-btn {
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 10px;
         padding: 20px;
     }
@@ -630,11 +631,12 @@
     }
 
     .p-product, .product-name, .add-to-cart-btn, .change-quantity {
-        font-size: 10px;
+        font-size: 9px;
     }
     .add, .reduce {
         margin-bottom: 5px;
         font-size: 13px;
+        width: 5px;
         display: flex;
         justify-content: center;
     }
