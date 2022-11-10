@@ -107,7 +107,6 @@
   }
   .shop-btn {
       font-size: 18px;
-      margin-bottom: 100px;
   }
 
   .about-us-p{
@@ -231,7 +230,6 @@
     }
     .shop-btn {
         font-size: 18px;
-        margin-bottom: 100px;
     }
     .title-div {
         margin-top: 50px;
@@ -348,6 +346,7 @@
         display: flex;
         justify-content: space-around;
         margin-bottom: 60px;
+        height: 100vh;
     }
     .hero-column {
         justify-content: center;
@@ -373,7 +372,6 @@
         font-size: 14px;
         padding: 20px;
         margin-top: 20px;
-        margin-bottom: 100px;
     }
 
     .slider-img {
@@ -527,6 +525,7 @@
         display: flex;
         justify-content: space-around;
         margin-bottom: 60px;
+        height: 100vh;
     }
     .hero-column {
         justify-content: center;
@@ -565,7 +564,6 @@
         font-size: 12px;
         margin-top: 10px;
         padding: 20px;
-        margin-bottom: 80px;
     }
     .about-us-div {
         display: flex;
