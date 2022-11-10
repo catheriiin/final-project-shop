@@ -365,7 +365,7 @@
 
     .about-us-p {
         font-size: 13px;
-        max-width: 190px;
+        max-width: 170px;
     }
     .about-us-choose-p {
         font-size: 13px;
@@ -373,7 +373,7 @@
     }
     
     .choose {
-        margin-left: 50px;
+        margin-left: 10px;
     }
     .about-disc{
         justify-content: center;
@@ -505,11 +505,15 @@
     }
     .about-us-p {
         font-size: 13px;
-        max-width: 190px;
+        max-width: 170px;
     }
     .about-us-choose-p {
         font-size: 13px;
-        max-width: 300px;
+        max-width: 190px;
+    }
+    
+    .choose {
+        margin-left: 10px;
     }
     
     .shop-btn {
