@@ -233,7 +233,9 @@
         font-size: 18px;
         margin-bottom: 100px;
     }
-
+    .title-div {
+        margin-top: 50px;
+    }
     .about-us-p{
         text-align: center;
         margin-left: 5px;
@@ -356,6 +358,10 @@
     .h1-deco {
         font-size: 20px;
         margin-top: 30px;
+    }
+
+    .title-div {
+        margin-top: 50px;
     }
     .about-hero-img {
         width: 100px;
@@ -527,6 +533,10 @@
     }
     .nav-style {
         font-size: 14px;
+    }
+
+    .title-div {
+        margin-top: 50px;
     }
     .h1-deco {
         font-size: 20px;
