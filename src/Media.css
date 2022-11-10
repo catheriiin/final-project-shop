@@ -448,14 +448,15 @@
     .order-items-div {
         display: flex;
         justify-content: space-around;
-        margin-left: 100px;
+        width: 250px;
+        margin-left: 20px;
     }
     .order-title-div {
         width: 360px;
     }
 
     .cart-item-div {
-        width: 360px;
+        width: 10px;
         margin-left: 100px;
         display: flex;
         justify-content: space-around;
@@ -503,7 +504,7 @@
     .about-hero-img-cake {
         width: 120px;
     }
-    .about-us-p {
+     .about-us-p {
         font-size: 13px;
         max-width: 170px;
     }
@@ -603,18 +604,28 @@
         justify-content: center;
         align-items: center;
     }
+
     .order-div {
         width: 200px;
     }
-    .order-title-div {
-        width: 320px;
+    .order-items-div {
+        display: flex;
+        justify-content: space-around;
+        width: 250px;
+        margin-left: 20px;
     }
+    .order-title-div {
+        width: 360px;
+    }
+
     .cart-item-div {
-        width: 320px;
+        width: 10px;
         margin-left: 100px;
+        display: flex;
+        justify-content: space-around;
     }
     .checkout-div {
-        width: 320px;
+        width: 350px;
         margin-top: 20px;
     }
     .order-text-deco {
@@ -628,9 +639,6 @@
         margin-left: 20px;
     }
 
-    .delete-icon {
-        margin-left: 90px;
-    }
     .center {
         display: flex;
         flex-direction: column;
