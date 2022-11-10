@@ -6,6 +6,7 @@ nav {
   margin-top: 10px;
 }
 
+
 span {
   position: absolute;
   background-color: #94BBE9;
@@ -24,6 +25,10 @@ span {
   color: #0061D2;
   text-transform: uppercase;
   font-size: 20px;
+}
+
+.nav-style:hover {
+  border-bottom: 1px solid #FAE2EC;
 }
 
 body {

@@ -267,6 +267,7 @@
     }
     .wedding-img {
         margin-bottom: 20px;
+        width: 50px;
     }
     .bottom-div {
         display: flex;
@@ -340,27 +341,37 @@
 	.hero-div {
         display: flex;
         justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    .hero-column {
+        justify-content: center;
     }
     .nav-style {
         font-size: 14px;
     }
     .h1-deco {
         font-size: 20px;
+        margin-top: 30px;
     }
     .about-hero-img {
-        width: 170px;
-    }
-    .about-hero-img-cake {
         width: 100px;
     }
-    .shop-btn {
-        font-size: 18px;
+    .about-hero-img-cake {
+        width: 70px;
     }
- 
+    .shop-btn {
+        font-size: 14px;
+        padding: 20px;
+        margin-top: 20px;
+    }
 
     .slider-img {
-        width: 300px;
-        height: 350px;
+        width: 250px;
+        height: 320px;
+    }
+
+    h5 {
+        font-size: 16px;
     }
 
     .about-us-p {
@@ -384,7 +395,7 @@
     }
     .flowers-img {
         margin-bottom: 10px;
-        width: 200px;
+        width: 150px;
     }
     .img-div{
         display: flex;
@@ -394,6 +405,11 @@
     }
     .wedding-img {
         margin-bottom: 20px;
+        width: 350px;
+    }
+
+    .call-us-a {
+        font-size: 12px;
     }
     .bottom-div {
         display: flex;
@@ -417,9 +433,9 @@
         width: 120px;
     }
 
-   .p-product {
+    .p-product {
     margin-right: 30px;
-   }
+    }
 
     .product-img {
         width: 100px;
@@ -432,6 +448,9 @@
 
     .add, .reduce {
         margin-bottom: 5px;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
     }
     .subcategory-margin{
         font-size: 14px;
@@ -491,15 +510,20 @@
 	.hero-div {
         display: flex;
         justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    .hero-column {
+        justify-content: center;
     }
     .nav-style {
         font-size: 14px;
     }
     .h1-deco {
         font-size: 20px;
+        margin-top: 30px;
     }
     .about-hero-img {
-        width: 180px;
+        width: 150px;
     }
     .about-hero-img-cake {
         width: 120px;
@@ -518,7 +542,9 @@
     }
     
     .shop-btn {
-        font-size: 18px;
+        font-size: 14px;
+        margin-top: 10px;
+        padding: 20px;
     }
     .about-us-div {
         display: flex;
@@ -543,7 +569,7 @@
     }
     .flowers-img {
         margin-bottom: 10px;
-        width: 300px;
+        width: 200px;
     }
     .img-div{
         display: flex;
@@ -553,6 +579,7 @@
     }
     .wedding-img {
         margin-bottom: 20px;
+        width: 280px;
     }
     .bottom-div {
         display: flex;
@@ -577,8 +604,8 @@
     margin-right: 30px;
    }
    .slider-img {
-    width: 300px;
-    height: 350px;
+    width: 250px;
+    height: 300px;
 }
     .product-img {
         width: 100px;
@@ -591,9 +618,11 @@
     .p-product, .product-name, .add-to-cart-btn, .change-quantity {
         font-size: 10px;
     }
-
     .add, .reduce {
         margin-bottom: 5px;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
     }
     .subcategory-margin{
         font-size: 14px;

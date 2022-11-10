@@ -10,7 +10,6 @@ import {
 import Aboutus from './Components/Pages/Aboutus/Aboutus';
 import Shop from './Components/Pages/Shop';
 import Contacts from './Components/Pages/Contacts';
-
 import logoFlowers from './images/logo.png';
 import Cart from './Components/Cart/Cart';
 import cart from './images/cart.png';
