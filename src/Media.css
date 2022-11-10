@@ -107,6 +107,7 @@
   }
   .shop-btn {
       font-size: 18px;
+      margin-bottom: 100px;
   }
 
   .about-us-p{
@@ -230,7 +231,7 @@
     }
     .shop-btn {
         font-size: 18px;
-        margin-bottom: 80px;
+        margin-bottom: 100px;
     }
 
     .about-us-p{
@@ -366,7 +367,7 @@
         font-size: 14px;
         padding: 20px;
         margin-top: 20px;
-        margin-bottom: 80px;
+        margin-bottom: 100px;
     }
 
     .slider-img {
